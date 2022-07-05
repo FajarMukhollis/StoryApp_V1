@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="title_register">Fill the form below</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="title_login">Lets Login</string>
+    <string name="email_hint">Enter email</string>
+    <string name="name_hint">Enter name</string>
+    <string name="btn_logout">Logout</string>
+    <string name="user">Name</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="desc">Description</string>
+    <string name="create_button">Button Create</string>
+    <string name="success_signup">Account has been created</string>
+    <string name="error_name">Enter your name first</string>
+    <string name="error_email">Enter your email first</string>
+    <string name="error_password">Enter your passwotd first</string>
+    <string name="error_400">Input not valid</string>
+    <string name="error_401">Account not found</string>
+    <string name="time_at">at</string>
+    <string name="error_pass">Password to short</string>
+    <string name="password_hint">Enter password</string>
+    <string name="story_hint">Write your story</string>
+    <string name="desc_camera">Add photo from camera</string>
+    <string name="desc_folder">Add photo from folder</string>
+    <string name="upload">Upload</string>
+    <string name="permission_no_granted">Permission not granted!</string>
+    <string name="succes_login">Login Succes</string>
+    <string name="date">Uploaded at %1$s</string>
+    <string name="succes_upload">Upload story success</string>
+    <string name="retrofit_failed">Failure Retrofit Instance</string>
+    <string name="add_image_warn">Add the photo first</string>
+    <string name="failed_take">Failure to take a image</string>
+    <string name="language">Language</string>
+    <string name="img_dicoding"/>
+    <string name="txtlogout">Logout</string>
+    <string name="img_splash">img splash</string>
+</resources>

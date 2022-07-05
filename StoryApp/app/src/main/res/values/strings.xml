@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="login">Masuk</string>
+    <string name="register">DAFTAR</string>
+    <string name="title_register">Lengkapi data diri dibawah ini</string>
+    <string name="name">Nama</string>
+    <string name="email">Alamat Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="title_login">Yuk Login</string>
+    <string name="email_hint">Masukkan email</string>
+    <string name="name_hint">Masukkan nama</string>
+    <string name="btn_logout">Logout</string>
+    <string name="user">Nama</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="desc">Deskripsi</string>
+    <string name="create_button">Tombol Buat</string>
+    <string name="success_signup">Akun berhasil dibuat</string>
+    <string name="error_name">Masukkan nama terlebih dahulu</string>
+    <string name="error_email">Masukkan email terlebih dahulu</string>
+    <string name="error_password">Masukkan password terlebih dahulu</string>
+    <string name="error_400">Input tidak valid</string>
+    <string name="error_401">Akun tidak ditemukan</string>
+    <string name="time_at">pada</string>
+    <string name="error_pass">Password terlalu pendek</string>
+    <string name="password_hint">Masukkan password</string>
+    <string name="story_hint">Tulis cerita anda</string>
+    <string name="desc_camera">Tambah foto dari kamera</string>
+    <string name="desc_folder">Tambah foto dari folder</string>
+    <string name="upload">Upload</string>
+    <string name="permission_no_granted">Tidak mendapatkan permission!</string>
+    <string name="succes_login">Login Berhasil</string>
+    <string name="date">Diunggah pada %1$s</string>
+    <string name="succes_upload">Cerita berhasil ditambahkan</string>
+    <string name="retrofit_failed">Gagal instance Retrofit</string>
+    <string name="add_image_warn">Masukan foto terlebih dahulu</string>
+    <string name="failed_take">Gagal mengambil gambar</string>
+    <string name="language">Bahasa</string>
+    <string name="img_dicoding" />
+    <string name="txtlogout">Keluar</string>
+    <string name="img_splash">img splash</string>
+</resources>

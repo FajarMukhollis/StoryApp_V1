@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_1"
+    tools:context=".view.story.CreateStoryActivity">
+
+    <ProgressBar
+        android:id="@+id/loadingProgress"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_story_image"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/upload" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/open_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/desc_camera"
+        android:elevation="20dp"
+        android:src="@drawable/ic_camera"
+        android:theme="@style/Theme.MaterialComponents"
+        android:tint="@null"
+        app:elevation="20dp"
+        app:fabSize="mini"
+        app:layout_constraintStart_toStartOf="@+id/iv_story_image"
+        app:layout_constraintTop_toBottomOf="@+id/iv_story_image" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/open_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/desc_folder"
+        android:src="@drawable/ic_folder"
+        android:theme="@style/Theme.MaterialComponents"
+        android:tint="@null"
+        app:elevation="20dp"
+        app:fabSize="mini"
+        app:layout_constraintStart_toEndOf="@+id/open_camera"
+        app:layout_constraintTop_toTopOf="@+id/open_camera" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_desc"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/story_hint"
+        app:layout_constraintEnd_toEndOf="@+id/iv_story_image"
+        app:layout_constraintStart_toStartOf="@+id/iv_story_image"
+        app:layout_constraintTop_toBottomOf="@+id/open_camera">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_desc"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
